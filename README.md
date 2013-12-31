@@ -25,7 +25,7 @@ Add to your `project.clj`:
 ```clojure
 (require 'rident.uuid)
 
-(rident.adj-noun/uuid) ;; => ""2e744138-7348-4151-abdb-31021f45749e""
+(rident.uuid/generate) ;; => "2e744138-7348-4151-abdb-31021f45749e"
 ```
 
 ## License
